@@ -75,12 +75,16 @@
 
 ## 팀원 소개 및 역할
 
-| 프로필                                                                | 이름                                                       | 주요 역할                                                                                                                                                            |
-| --------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/abyss-s.png" width="80" height="80"/>    | **이영주**<br>[@abyss-s](https://github.com/abyss-s)       | `팀 프로젝트 리드`, `프론트엔드 리드`, `FE`<br>프로젝트 전반 총괄 및 구조 설계<br>판매글 등록 · 일괄구매 · 필터링 기능 구현<br>FCM 기반 실시간 알림 시스템 구축      |
-| <img src="https://github.com/dogeonkim1.png" width="80" height="80"/> | **김도건**<br>[@dogeonkim1](https://github.com/dogeonkim1) | `스크럼 리드`, `QA`, `FE`<br>데이터 구매 페이지 및 조건 분기 처리<br>ZET 결제·충전 플로우 및 약관/정지 처리<br>관리자 백오피스: 신고 해제, 금칙어·공지 관리          |
-| <img src="https://github.com/minji-38.png" width="80" height="80"/>   | **안민지**<br>[@minji-38](https://github.com/minji-38)     | `기획·디자인 리드`, `FE`<br>ZET 충전/환불 로직 구현<br>신고 기능 · 간편비밀번호 입력 UI 전역 관리<br>마이페이지: 거래 평판 · 업적 · 팔로우 기능 개발                 |
-| <img src="https://github.com/kuru2141.png" width="80" height="80"/>   | **진영호**<br>[@kuru2141](https://github.com/kuru2141)     | `AI 리드`, `FE`<br>Kakao 소셜 로그인 + JWT 인증 흐름 구축<br>알림 설정/필터링 페이지 및 인증 미들웨어 개발<br>AI 기반 거래 사용자 추천 + 전파 스토리텔링 시스템 구현 |
+| 프로필                                                                                | 이름                                                                | 주요 역할 및 기여                                                                |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <img src="https://avatars.githubusercontent.com/u/165022381?v=4" width="80"/>      | **송현규**<br>[@songhyeongu](https://github.com/songhyeongu)         | `BE 리드`<br>- 전체 DB/ERD 설계<br>- 거래/정산 로직, 성능 최적화<br>- ZET 기반 포인트 시스템 구현   |
+| <img src="https://avatars.githubusercontent.com/Jeong-Minkyeong?s=80" width="80"/> | **정민경**<br>[@Jeong-Minkyeong](https://github.com/Jeong-Minkyeong) | `BE`<br>- 인증/보안 로직 담당<br>- 알림, 관리자 대시보드 API 개발                           |
+| <img src="https://avatars.githubusercontent.com/chungjeongsu?s=80" width="80"/>    | **정지호**<br>[@chungjeongsu](https://github.com/chungjeongsu)       | `BE`<br>- 사용자/상품 CRUD API<br>- 거래/매칭 로직 구현                               |
+| <img src="https://github.com/abyss-s.png" width="80"/>                             | **이영주**<br>[@abyss-s](https://github.com/abyss-s)                 | `팀 리드`, `FE 리드`<br>- 프로젝트 구조 설계 및 총괄<br>- 판매글 등록, 일괄구매, FSM 기반 상태관리 구현 |
+| <img src="https://github.com/dogeonkim1.png" width="80"/>                          | **김도건**<br>[@dogeonkim1](https://github.com/dogeonkim1)           | `FE`<br>- ZET 충전 및 결제 로직<br>- 관리자 백오피스, Storybook 문서화     |
+| <img src="https://github.com/minji-38.png" width="80"/>                            | **안민지**<br>[@minji-38](https://github.com/minji-38)               | `FE`<br>- 데이터 구매 UX 흐름 구현<br>- 전파거리 시각화, 마이페이지 UI/UX         |
+| <img src="https://github.com/kuru2141.png" width="80"/>                            | **진영호**<br>[@kuru2141](https://github.com/kuru2141)               | `FE`<br>- 소셜 로그인/JWT 인증<br>- GPT 기반 추천 및 감성 메시지 시스템 개발           |
+
 
 ## 프로젝트 산출물
 
