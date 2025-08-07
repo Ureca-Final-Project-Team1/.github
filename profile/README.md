@@ -1,26 +1,31 @@
 # <div align="center">UFO-Fi</div>
 
-<img src='docs/thumnail.svg' widtj='120' />
+<div align="center"><img src='docs/thumnail.svg' widtj='120' /></div>
 
 ## <div align="center">서비스 소개</div>
 
 <div align="center">
 
+
 <p>
-서비스명 <strong>유포파이(UFO-Fi)</strong>는 <em>UFO</em>와 <em>Wi-Fi</em>의 합성어로,<br>
-남는 데이터를 가치 있는 연결로 전환하는 <strong>새로운 데이터 순환 허브</strong>를 지향합니다.
+<strong>데이터는 부족해도, 은하는 연결되어 있다 🌌</strong>
 </p>
 
 <p>
-유포파이는 유휴 데이터를 대신 보관하고 거래를 중개하는<br>
-<strong>수탁형 C2C 데이터 거래 구조</strong>를 바탕으로,<br>
-매달 소멸되는 데이터를 <strong>ZET(Zero Expired Traffic)</strong>라는 자체 재화로 전환해<br>
-가치를 부여하고 <strong>재사용 가능한 자산</strong>으로 만듭니다.
+지금 지구는요…<br>
+남는 데이터는 매달 <strong>소멸</strong>되고,<br>
+부족할 땐 <strong>비싼 요금</strong>으로 충전하며,<br>
+비공식 거래는 <strong>불안과 위험</strong>을 안고 있습니다.
 </p>
 
 <p>
-마치 외계 네트워크가 데이터를 대신 관리하고 중개하는 듯한 <strong>신뢰 구조</strong>를 통해,<br>
-사용자는 단순한 이용자가 아닌 <strong>데이터 생태계의 참여자</strong>가 됩니다.
+그래서 등장했습니다 – <strong>UFO-Fi 🛸</strong>
+</p>
+
+<p>
+👽 <strong>외계에서 온 신뢰의 데이터 중개사, 유포파이</strong>는<br>
+여러분의 데이터를 <strong>안전하게 보관</strong>하고,<br>
+필요한 사람에게 <strong>간편하고 신뢰 있게 연결</strong>해줍니다.
 </p>
 
 </div>
@@ -33,41 +38,29 @@
 | **팀명**       | AL1EN                            |
 | **주제**       | 무선 데이터 공유 플랫폼          |
 | **타겟층**     | 데이터 구매 수요 및 공급층       |
-| **개발 기간**  | 2025.06.30 ~ 2025.08.08 (약 5주) |
+| **개발 기간**  | 2025.06.30 ~ 2025.08.07 (약 5주) |
 
 ## 프로젝트 배경
 
-- **시장 분석**
-  - 무제한 요금제 확산에 따른 유휴 데이터 증가와 소멸 문제 심화
-  - 비공식 거래의 신뢰 부재와 통신사 선물 기능의 실효성 한계
-- **개발 동기**
-  - 데이터 자산을 유의미하게 재분배할 수 있는 거래 구조의 필요성 제기
-  - 디지털 소비에 익숙한 MZ세대를 위한 실용적이고 안전한 거래 환경 제공
+### 시장 분석
 
-## 서비스 간단 소개
+- **유휴 데이터의 구조적 소멸**
+  - 무제한 요금제 확산으로 과잉 제공된 데이터의 자동 소멸 현상
 
-**UFO-Fi**는 유휴 데이터를 플랫폼이 대신 보관하고 거래를 중개하는 **수탁형 C2C 데이터 거래 구조**를 채택하였습니다.
-무제한 요금제 확산으로 매달 소멸되는 데이터를 **ZET**라는 자체 재화로 전환하여, 실질적 가치를 부여하고 재사용 가능하도록 설계했습니다.
+- **비공식 거래의 신뢰성 문제**
+  - 중고 커뮤니티 기반 거래의 사기 위험성과 법적 보호의 부재
 
-## 주요 기능
+- **공식 유통 채널의 부재**
+  - 통신사 데이터 선물 기능의 낮은 사용성과 거래 수단으로서의 한계
 
-| **기능 영역**                  | **설명**                                                                                                        |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **1. 회원 인증 및 등급**       | - Kakao 소셜 로그인<br>- JWT + Refresh Token 인증<br>- 통신사 · 계좌 연동 시 본인인증 등급 부여                 |
-| **2. 데이터 판매 기능**        | - 통신사/용량/가격 입력 기반 판매글 등록<br>- 계좌 등록 여부에 따른 거래 제한                                   |
-| **3. 일괄 구매 & 사용자 추천** | - 용량·예산 기준 최적 매물 자동 추천<br>- 거래 이력을 Qdrant 벡터화를 통한 신뢰도 가중치 기반 판매자 추천       |
-| **4. ZET 재화 시스템**         | - ZET ↔ 원 환전 기능<br>- 단가 정책, 패키지 유도, 수수료 모델 설계<br>- 자체 재화로 통합된 거래 구조 구현       |
-| **5. 간편 인증 & 계좌 연동**   | - 6자리 간편비밀번호로 충전·환급 인증<br>- 본인 명의 계좌 등록 필수                                             |
-| **6. 푸시 알림 시스템 (FCM)**  | - 거래, 신고, 제재 등 실시간 알림<br>- 브라우저 권한 UI 및 백그라운드 수신 지원                                 |
-| **7. 신고 및 제재 관리**       | - 판매글 신고 및 자동 제재 처리<br>- 백오피스를 통한 관리자 수동 해제, 공지/금칙어 관리 가능                    |
-| **8. 마이페이지 기능**         | - 요금제, 계좌, 알림 설정 등 프로필 수정<br>- 팔로우 및 업적, 거래 내역 조회 가능                               |
-| **9. 거래 평판 업적 기능**     | - 거래 내역 기반 종족/등급/업적 뱃지 부여<br>- 메인 페이지에서 평판에 따른 행성 시각화                          |
-| **10. 전파 스토리텔링 시스템** | - 거래 흐름 기반 전파 거리 추적<br>- AI 감성 스토리 생성 및 행성 서사 구조<br>- 전파 거리 따라 뱃지·스탬프 보상 |
+### 개발 동기
 
-![img](docs/feature-1.svg)
-![img](docs/feature-2.svg)
-![img](docs/feature-3.svg)
-![img](docs/feature-4.svg)
+- **데이터 유통 구조 설계의 필요성**
+  - 소멸되는 데이터를 유통 가능한 자산으로 전환하기 위한 구조적 해결책의 필요
+
+- **신뢰 기반 개인 간 거래 환경 조성**
+  - 안전하고 공식적인 거래 구조를 통한 사용자 참여 유도
+
 
 ## 기술 스택
 
@@ -78,15 +71,7 @@
 | **Backend**                        | ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=springsecurity&logoColor=white) ![OAuth2](https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=oauth&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=JSON%20web%20tokens&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat&logo=hibernate&logoColor=white) ![QueryDSL](https://img.shields.io/badge/QueryDSL-0078D4?style=flat&logo=java&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![FCM](https://img.shields.io/badge/FCM-FFCA28?style=flat&logo=firebase&logoColor=black)                                                                                                                                              |
 | **Backend Testing & Code Quality** | ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white) ![Mockito](https://img.shields.io/badge/Mockito-25A162?style=flat&logo=mockito&logoColor=white) ![H2](https://img.shields.io/badge/H2-0078D4?style=flat&logo=h2&logoColor=white) ![Jacoco](https://img.shields.io/badge/Jacoco-DC382D?style=flat&logo=jacoco&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Infrastructure**                 | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white) ![AWS RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=flat&logo=amazon-rds&logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazon-s3&logoColor=white) ![AWS VPC](https://img.shields.io/badge/AWS_VPC-FF4F00?style=flat&logo=amazon-aws&logoColor=white) ![Route 53](https://img.shields.io/badge/Route_53-DA7B00?style=flat&logo=amazon-route-53&logoColor=white) ![AWS ACM](https://img.shields.io/badge/AWS_ACM-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![AWS IAM](https://img.shields.io/badge/AWS_IAM-DD344C?style=flat&logo=amazon-aws&logoColor=white) ![ElastiCache](https://img.shields.io/badge/ElastiCache-C925D1?style=flat&logo=amazon-aws&logoColor=white) |
-| **Development Tools**              | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white) ![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=flat&logo=googledrive&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                       |
-
-## 시스템 아키텍처
-
-## Code Convention
-
-- [Git Convention](https://github.com/Ureca-Final-Project-Team1/UFO-Fi-FE/wiki/Git-Convention)
-- [FE Code Convention](https://github.com/Ureca-Final-Project-Team1/UFO-Fi-FE/wiki/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-Code-Convention)
-- [백엔드 코드 컨벤션 바로가기]()
+| **Development Tools**              | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white) ![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=flat&logo=googledrive&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                      |
 
 ## 팀원 소개 및 역할
 
@@ -99,8 +84,8 @@
 
 ## 프로젝트 산출물
 
-**[서비스 배포](https://www.ufo-fi.store)**
-\| **[Storybook 배포](https://686aad151c7964b9495b4f40-hqvfjpyhnx.chromatic.com/?path=/docs/components-bulk-bulkcapacityslider--docs)**
-\| **[기획안](https://docs.google.com/document/d/1NqRLayCa4AnSClRW7G0doHbIlRZeVMeL/edit?usp=sharing&ouid=101077923369398316818&rtpof=true&sd=true)**
-\| **[WBS](https://docs.google.com/spreadsheets/d/1-bXQZqGRbWhyofkfMdC6lOKrp5KHEylr/edit?usp=sharing&ouid=101077923369398316818&rtpof=true&sd=true)**
-\| **[ERD Diagram](https://www.erdcloud.com/d/u8JYmdPAEqxb5cRG3)**
+- 🔗 **[서비스 배포](https://www.ufo-fi.store)**
+- 📘 **[Storybook 배포](https://686aad151c7964b9495b4f40-mjroypvwoa.chromatic.com/?path=/story/components-admin-adminsidemenu--default)**
+- 📝 **[기획안](https://docs.google.com/document/d/1LA9nD6x7NlE14VwlXXXUFm_RqPe51S6E/edit#heading=h.61ulqoqq62c5)**
+- 🗂️ **[ERD Diagram](https://www.erdcloud.com/d/aQsiarcJD4Aa8QHhE)**
+
