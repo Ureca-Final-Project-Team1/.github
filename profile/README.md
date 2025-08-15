@@ -25,6 +25,10 @@
 
 [서비스 바로가기](https://www.ufo-fi.store) | [Storybook](https://686aad151c7964b9495b4f40-mjroypvwoa.chromatic.com/?path=/docs/ui-chip--docs) | [기획안](https://docs.google.com/document/d/18lT4sulS8pPTNh95n2JUIQZff5S-SvHB/edit?usp=sharing&ouid=101077923369398316818&rtpof=true&sd=true)
 
+**시연 영상**
+
+[![시연 영상](https://img.youtube.com/vi/tK7f2OSCOx0/0.jpg)](https://www.youtube.com/watch?v=tK7f2OSCOx0)
+
 </div>
 
 ## 프로젝트 개요
